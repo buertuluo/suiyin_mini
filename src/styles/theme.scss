@@ -1,0 +1,33 @@
+/* 碎银记账本 · 存钱猫主题 */
+$ink: #4e2135;
+$ink-soft: #7a4a5c;
+$coral: #ff8d85;
+$coral-deep: #f0716a;
+$blush: #ffe8e4;
+$cream: #fff7f4;
+$panel: #ffffff;
+$gold: #d4b84a;
+$gold-deep: #c7a63a;
+$expense: #e85d5d;
+$income: #3d9b7a;
+$muted: #b08a96;
+$shadow: rgba(78, 33, 53, 0.08);
+$line: rgba(78, 33, 53, 0.1);
+
+:root,
+page {
+  --ink: #{$ink};
+  --ink-soft: #{$ink-soft};
+  --coral: #{$coral};
+  --coral-deep: #{$coral-deep};
+  --blush: #{$blush};
+  --cream: #{$cream};
+  --panel: #{$panel};
+  --gold: #{$gold};
+  --gold-deep: #{$gold-deep};
+  --expense: #{$expense};
+  --income: #{$income};
+  --muted: #{$muted};
+  --shadow: #{$shadow};
+  --line: #{$line};
+}

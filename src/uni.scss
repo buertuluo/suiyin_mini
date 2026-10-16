@@ -1,0 +1,66 @@
+/**
+ * 碎银记账本 · 存钱猫主题（与头像配色一致）
+ */
+
+$ink: #4e2135;
+$ink-soft: #7a4a5c;
+$coral: #ff8d85;
+$coral-deep: #f0716a;
+$blush: #ffe8e4;
+$cream: #fff7f4;
+$panel: #ffffff;
+$gold: #d4b84a;
+$gold-deep: #c7a63a;
+$expense: #e85d5d;
+$income: #3d9b7a;
+$muted: #b08a96;
+$shadow: rgba(78, 33, 53, 0.08);
+$line: rgba(78, 33, 53, 0.1);
+
+$uni-color-primary: $coral-deep;
+$uni-color-success: $income;
+$uni-color-warning: $gold-deep;
+$uni-color-error: $expense;
+
+$uni-text-color: $ink;
+$uni-text-color-inverse: #fff;
+$uni-text-color-grey: $muted;
+$uni-text-color-placeholder: #c4a0ab;
+$uni-text-color-disable: #d8bcc4;
+
+$uni-bg-color: $panel;
+$uni-bg-color-grey: $cream;
+$uni-bg-color-hover: $blush;
+$uni-bg-color-mask: rgba(78, 33, 53, 0.35);
+
+$uni-border-color: $line;
+
+$uni-font-size-sm: 12px;
+$uni-font-size-base: 14px;
+$uni-font-size-lg: 16;
+
+$uni-img-size-sm: 20px;
+$uni-img-size-base: 26px;
+$uni-img-size-lg: 40px;
+
+$uni-border-radius-sm: 8px;
+$uni-border-radius-base: 14px;
+$uni-border-radius-lg: 22px;
+$uni-border-radius-circle: 50%;
+
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+
+$uni-spacing-col-sm: 4px;
+$uni-spacing-col-base: 8px;
+$uni-spacing-col-lg: 12px;
+
+$uni-opacity-disabled: 0.3;
+
+$uni-color-title: $ink;
+$uni-font-size-title: 20px;
+$uni-color-subtitle: $ink-soft;
+$uni-font-size-subtitle: 18px;
+$uni-color-paragraph: $ink-soft;
+$uni-font-size-paragraph: 15px;

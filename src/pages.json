@@ -1,0 +1,105 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#FF8D85",
+        "backgroundColor": "#FF8D85"
+      }
+    },
+    {
+      "path": "pages/ledger/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationBarBackgroundColor": "#FFF7F4",
+        "backgroundColor": "#FFF7F4"
+      }
+    },
+    {
+      "path": "pages/record/index",
+      "style": {
+        "navigationBarTitleText": "记一笔",
+        "navigationBarBackgroundColor": "#FFF7F4",
+        "backgroundColor": "#FFF7F4"
+      }
+    },
+    {
+      "path": "pages/stats/index",
+      "style": {
+        "navigationBarTitleText": "统计",
+        "navigationBarBackgroundColor": "#FFF7F4",
+        "backgroundColor": "#FFF7F4"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarBackgroundColor": "#FFF7F4",
+        "backgroundColor": "#FFF7F4"
+      }
+    },
+    {
+      "path": "pages/accounts/index",
+      "style": {
+        "navigationBarTitleText": "资金账户",
+        "navigationBarBackgroundColor": "#FFF7F4",
+        "backgroundColor": "#FFF7F4"
+      }
+    },
+    {
+      "path": "pages/transaction/detail",
+      "style": {
+        "navigationBarTitleText": "流水详情",
+        "navigationBarBackgroundColor": "#FFF7F4",
+        "backgroundColor": "#FFF7F4"
+      }
+    },
+    {
+      "path": "pages/account/detail",
+      "style": {
+        "navigationBarTitleText": "账户详情",
+        "navigationBarBackgroundColor": "#FFF7F4",
+        "backgroundColor": "#FFF7F4"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#B08A96",
+    "selectedColor": "#F0716A",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "height": "60px",
+    "fontSize": "12px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/ledger/index",
+        "text": "首页",
+        "iconPath": "static/tab/ledger.png",
+        "selectedIconPath": "static/tab/ledger_active.png"
+      },
+      {
+        "pagePath": "pages/stats/index",
+        "text": "统计",
+        "iconPath": "static/tab/stats.png",
+        "selectedIconPath": "static/tab/stats_active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/tab/mine.png",
+        "selectedIconPath": "static/tab/mine_active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "碎银记账本",
+    "navigationBarBackgroundColor": "#FFF7F4",
+    "backgroundColor": "#FFF7F4"
+  }
+}
